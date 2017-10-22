@@ -4,4 +4,4 @@
 # ScreenShot
 <img src="https://github.com/Stubborn-boy/StateButton/blob/master/state_button.gif" />
 
-<a href="https://github.com/nadimgouia/CoolView/tree/master/app">原文链接</a>
+<a href="http://www.jianshu.com/p/1fe7f21f4829">原文链接</a>
