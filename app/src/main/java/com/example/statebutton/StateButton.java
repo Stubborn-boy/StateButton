@@ -19,11 +19,15 @@ import android.util.AttributeSet;
 
 public class StateButton extends AppCompatButton {
 
+    //圆角半径
     int cornerRadius = 0;
+    //边框宽度
     int borderStroke = 0;
+    //边框颜色
     int borderColor = 0;
+    //enable为false时的颜色
     int unableColor = 0;
-
+    //背景shape
     GradientDrawable shape;
 
     int colorId;
@@ -92,10 +96,11 @@ public class StateButton extends AppCompatButton {
 
 
     public void init() {
-
+        //设置圆角半径
         shape.setCornerRadius(cornerRadius);
+        //设置边框宽度和颜色
         shape.setStroke(borderStroke, borderColor);
-
+        //将GradientDrawable设置为背景
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN) {
             setBackground(shape);
         } else {

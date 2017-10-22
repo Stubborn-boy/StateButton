@@ -2,9 +2,13 @@
 <resources>
 
     <declare-styleable name="StateButton">
+        <!--圆角半径-->
         <attr name="corner_radius" format="dimension" />
+        <!--边框颜色-->
         <attr name="border_color" format="color" />
+        <!--边框宽度-->
         <attr name="border_stroke" format="dimension" />
+        <!--不可用时的颜色-->
         <attr name="unable_color" format="color" />
     </declare-styleable>
 </resources>
